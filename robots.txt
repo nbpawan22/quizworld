@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Allow: /public/
+Sitemap:https://nbpawan22.github.io/quizworld/sitemap.xml
