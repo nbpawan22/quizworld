@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a5acd, #20b2aa);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff6f61;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    background: #ff6f61;
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background: #ff3b2f;
+  }
+  
+  /* Individual Button Colors */
+  .class11 { background: #6a5acd; }
+  .class12 { background: #20b2aa; }
+  
+  .class11:hover { background: #483d8b; }
+  .class12:hover { background: #1e9c95; }

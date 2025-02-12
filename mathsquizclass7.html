@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 7 Math Quiz - Quiz Zone</title>
+  <link rel="stylesheet" href="quiz.css">
+  <link rel="icon" type="image/x-icon" href="quizmaster.png">
+</head>
+<body>
+  <div class="container">
+    <h1>Class 7 Math Quiz organized by your Quiz Zone !</h1>
+    <div class="score">Score: <span id="score">0</span></div>
+    <div class="timer">Time Left: <span id="time">30</span>s</div>
+    <div id="question-container">
+      <p id="question"></p>
+      <div id="options">
+        <button class="option" id="option1"></button>
+        <button class="option" id="option2"></button>
+        <button class="option" id="option3"></button>
+        <button class="option" id="option4"></button>
+      </div>
+    </div>
+    <button id="end-session">End Session</button>
+    <div id="result" class="hidden">
+      <h2>Game Over!</h2>
+      <p>Your final score is: <span id="final-score"></span></p>
+      <button id="retry">Retry</button>
+    </div>
+  </div>
+  <audio id="correct-sound" src="Correct Answer sound effect.mp3"></audio>
+  <audio id="wrong-sound" src="Wrong Answer Sound effect.mp3"></audio>
+  <script src="mathsquizclass7.js"></script>
+</body>
+</html>

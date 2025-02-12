@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Game - Quiz Zone</title>
+    <link rel="icon" type="image/x-icon" href="quizmaster.png">
+    <link rel="stylesheet" href="KBC.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kaun Banega Crorepati</h1>
+        <div class="scoreboard">
+            <span>Prize: ₹<span id="prize">0</span></span>
+        </div>
+        <div class="lifelines">
+            <button id="fifty-fifty" onclick="useFiftyFifty()">50:50</button>
+            <button id="ask-audience" onclick="useAskAudience()">Ask Audience</button>
+        </div>
+        <div id="quiz-container">
+            <div id="question"></div>
+            <div id="options" class="options"></div>
+        </div>
+        <div id="feedback"></div>
+        <div id="timer">Time Left: <span id="time-left">30</span>s</div>
+        <button id="restart-button" onclick="startGame()">Restart Game</button>
+    </div>
+    <script src="KBC.js"></script>
+</body>
+</html>

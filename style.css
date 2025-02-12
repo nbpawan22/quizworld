@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific Button Colors */
+.button:nth-child(1) { color: black; }
+.button:nth-child(2) { color: black; }
+.button:nth-child(3) { color: black; }
+.button:nth-child(4) { color: black; }
+.button:nth-child(5) { color: black; }
+.button:nth-child(6) { color: black; }
+.button:nth-child(7) { color: black; }
+.button:nth-child(8) { color: black; }
+.button:nth-child(9) { color: black; }
+.button:nth-child(10) { color: black; }
+.button:nth-child(11) { color: black; }
+.button:nth-child(12) { color: black; }
+.button:nth-child(13) { color: black; }
+.button:nth-child(14) { color: black; }
+.button:nth-child(15) { color: black; }
+.button:nth-child(16) { color: black; }
+.button:nth-child(17) { color: black; }
+.button:nth-child(18) { color: black; }
+.button:nth-child(19) { color: black; }
+.button:nth-child(2) { color: black; }
+.button:nth-child(21) { color: black; }
+.button:nth-child(22) { color: black; }
+.button:nth-child(23) { color: black; }
+.button:nth-child(24) { color: black; }
+
+
+
+.button:nth-child(1) { background: #ff6f61; }
+.button:nth-child(2) { background: #6b5b95; }
+.button:nth-child(3) { background: #88b04b; }
+.button:nth-child(4) { background: #ffa500; }
+.button:nth-child(5) { background: #92a8d1; }
+.button:nth-child(6) { background: #f7cac9; }
+.button:nth-child(7) { background: #fd5351; }
+.button:nth-child(8) { background: #69ec86; }
+.button:nth-child(9) { background: #a765fd; }
+.button:nth-child(10) { background: #6de982; }
+.button:nth-child(11) { background: #eb6feb; }
+.button:nth-child(12) { background: #97cff0; }
+.button:nth-child(13) { background: #ff6f61; }
+.button:nth-child(14) { background: #6b5b95; }
+.button:nth-child(15) { background: #88b04b; }
+.button:nth-child(16) { background: #ffa500; }
+.button:nth-child(17) { background: #92a8d1; }
+.button:nth-child(18) { background: #f7cac9; }
+.button:nth-child(19) { background: #fd5351; }
+.button:nth-child(20) { background: #69ec86; }
+.button:nth-child(21) { background: #a765fd; }
+.button:nth-child(22) { background: #6de982; }
+.button:nth-child(23) { background: #eb6feb; }
+.button:nth-child(24) { background: #97cff0; }
+
+.button:nth-child(1):hover { background: #ff4a3d; }
+.button:nth-child(2):hover { background: #5a4a7d; }
+.button:nth-child(3):hover { background: #769d3d; }
+.button:nth-child(4):hover { background: #e69500; }
+.button:nth-child(5):hover { background: #7a8fb1; }
+.button:nth-child(6):hover { background: #f5b5b4; }
+.button:nth-child(7):hover { background: #f04744; }
+.button:nth-child(8):hover { background: #57f857; }
+.button:nth-child(9):hover { background: #9348f7; }
+.button:nth-child(10):hover { background: #4bf167; }
+.button:nth-child(11):hover { background: #e24ee2; }
+.button:nth-child(12):hover { background: #62baec; }
+.button:nth-child(13):hover { background: #ff4a3d; }
+.button:nth-child(14):hover { background: #5a4a7d; }
+.button:nth-child(15):hover { background: #769d3d; }
+.button:nth-child(16):hover { background: #e69500; }
+.button:nth-child(17):hover { background: #7a8fb1; }
+.button:nth-child(18):hover { background: #f5b5b4; }
+.button:nth-child(19):hover { background: #f04744; }
+.button:nth-child(20):hover { background: #57f857; }
+.button:nth-child(21):hover { background: #9348f7; }
+.button:nth-child(22):hover { background: #4bf167; }
+.button:nth-child(23):hover { background: #e24ee2; }
+.button:nth-child(24):hover { background: #62baec; }

@@ -1,0 +1,146 @@
+/* Contact Us Page Styles */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.contact-form h2, .contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.form-group input, .form-group textarea {
+    width: 98%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #000000;
+    transition: all 0.3s ease;
+    border: 2px solid rgb(80, 80, 80);
+
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #6b5b95;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #5a4a7d;
+}
+
+.contact-info ul li strong {
+    color: #ff6f61;
+}
+
+.contact-info ul li a {
+    color: #6b5b95;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info ul li a:hover {
+    color: #5a4a7d;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #6b5b95;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-button:hover {
+    background: #5a4a7d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#contactus{
+    text-align: center;
+}
+#haveQ{
+    text-align: center;
+}
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #6b5b95;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+
+.button:hover {
+    background: #5a4a7d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.button0 {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #4e90f1;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+
+.button0:hover {
+    background:#4752f0;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
